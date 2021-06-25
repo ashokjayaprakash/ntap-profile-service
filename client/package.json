@@ -3,6 +3,7 @@
   "version": "2.2.0",
   "private": true,
   "scripts": {
+    "vercel": "nuxt-ts --port $PORT",
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "analyze": "nuxt-ts build -a",
