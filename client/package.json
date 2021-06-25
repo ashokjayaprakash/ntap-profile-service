@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "vercel": "nuxt-ts --port $PORT",
-    "start": "nuxt-ts",
-    "build": "nuxt-ts",
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
     "analyze": "nuxt-ts build -a",
-    "start-t": "nuxt start",
+    "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
     "lint": "eslint --ext .ts,.js,.vue ."
   },
