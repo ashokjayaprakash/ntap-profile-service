@@ -152,8 +152,7 @@ module.exports = {
     '@nuxtjs/axios',
     'cookie-universal-nuxt',
     '@aceforth/nuxt-optimized-images',
-    '@nuxtjs/sitemap',
-    'cookie-universal-nuxt'
+    '@nuxtjs/sitemap'
   ],
 
   optimizedImages: {
