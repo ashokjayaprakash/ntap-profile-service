@@ -53,6 +53,7 @@
     "sharp": "^0.26.3",
     "sqip-loader": "^1.0.0",
     "ts-jest": "^26.4.4",
+    "typescript": "^4.3.4",
     "vue-jest": "^4.0.0-0",
     "webp-loader": "^0.6.0"
   }
