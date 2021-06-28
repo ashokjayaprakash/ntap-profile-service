@@ -3,7 +3,7 @@
   "version": "2.2.0",
   "private": true,
   "scripts": {
-    "vercel": "nuxt-ts --port $PORT",
+    "vercel": "nuxt-ts --port 5000",
     "dev": "nuxt-ts",
     "build": "nuxt build",
     "analyze": "nuxt-ts build -a",
@@ -23,10 +23,10 @@
     "monaco-editor-webpack-plugin": "<=1.7.0",
     "nuxt": "^2.14.10",
     "vuedraggable": "^2.24.3",
-    "vuejs-ace-editor": "^1.0.1"
+    "vuejs-ace-editor": "^1.0.1",
+    "@aceforth/nuxt-optimized-images": "^1.3.0"
   },
   "devDependencies": {
-    "@aceforth/nuxt-optimized-images": "^1.3.0",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@nuxt/types": "^2.14.10",
