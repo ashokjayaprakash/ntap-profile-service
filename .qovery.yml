@@ -1,0 +1,15 @@
+---
+application:
+  name: "ntap-profile-service"
+  project: "ntap-profile"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "ntap-profile"
+  version: "11"
+routers:
+- name: "main-ntap-profile-service"
+  routes:
+  - application_name: "ntap-profile-service"
+    paths:
+    - "/*"
