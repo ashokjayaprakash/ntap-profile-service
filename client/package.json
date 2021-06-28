@@ -5,7 +5,7 @@
   "scripts": {
     "vercel": "nuxt-ts --port $PORT",
     "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
+    "build": "nuxt build",
     "analyze": "nuxt-ts build -a",
     "start": "nuxt start",
     "generate": "nuxt-ts generate",
